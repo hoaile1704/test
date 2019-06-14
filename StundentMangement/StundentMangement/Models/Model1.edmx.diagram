@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a617b10f542749168ea7b5a1ed35ef77" Name="Diagram1">
+        <EntityTypeShape EntityType="StudentManagementModel.BRANCH" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.CATALOG" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.CATELOGY" Width="1.5" PointX="10.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.CONTACT" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.DOCUMENT" Width="1.5" PointX="12.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.INPUT_TYPE" Width="1.5" PointX="8.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.INTAKE" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.PROGRAM" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.SEMESTER" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.STUDENT" Width="1.5" PointX="7.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.sysdiagram" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.TYPE_STUDENT" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentManagementModel.YEAR" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="StudentManagementModel.FK_PROGRAMS_HAS_CATEG_BRANCH" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_CATALOG_YEAR_END_YEAR" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_CATALOG_YEAR_STAR_YEAR" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_INTAKE_IN_CATALOG" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_STUDENT_OF4_CATALOG" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_CATELOGY_HAS3_INPUT_TY" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_DOCUMENT_DOCUMENT2_CATELOGY" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_CONTACT_HAS2_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_STUDENT_HAS_CONTACT" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_DOCUMENT_DOCUMENT_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_STUDENT_OF5_INTAKE" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_STUDENT_STUDY_PROGRAMS" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.FK_STUDENT_OF3_TYPE_STU" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentManagementModel.YEAR_SEME" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
